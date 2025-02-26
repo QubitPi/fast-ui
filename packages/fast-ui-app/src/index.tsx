@@ -21,15 +21,15 @@ import * as Sentry from "@sentry/react";
 import { Provider } from "react-redux";
 import { store } from "fast-ui-redux";
 
-if (process.env.NODE_ENV === "production") {
-  Sentry.init({
-    dsn: "https://5e82dcf741091e63d616982f0cbcf0e5@o4505480921022464.ingest.us.sentry.io/4508702863589376",
-    integrations: [Sentry.browserTracingIntegration(), Sentry.replayIntegration()],
-    tracesSampleRate: 1.0,
-    replaysSessionSampleRate: 0.1,
-    replaysOnErrorSampleRate: 1.0,
-  });
-}
+// if (process.env.NODE_ENV === "production") {
+//   Sentry.init({
+//     dsn: "https://5e82dcf741091e63d616982f0cbcf0e5@o4505480921022464.ingest.us.sentry.io/4508702863589376",
+//     integrations: [Sentry.browserTracingIntegration(), Sentry.replayIntegration()],
+//     tracesSampleRate: 1.0,
+//     replaysSessionSampleRate: 0.1,
+//     replaysOnErrorSampleRate: 1.0,
+//   });
+// }
 
 /* eslint-disable  @typescript-eslint/non-nullable-type-assertion-style */
 const root = ReactDOM.createRoot(document.getElementById("root") as HTMLElement);

@@ -1,0 +1,3710 @@
+{
+	"id": 0,
+	"name": "fast-ui",
+	"variant": "project",
+	"kind": 1,
+	"flags": {},
+	"children": [
+		{
+			"id": 4,
+			"name": "fast-ui-app/src",
+			"variant": "declaration",
+			"kind": 2,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "packages/fast-ui-app/src/index.tsx",
+					"line": 1,
+					"character": 0,
+					"url": "https://github.com/QubitPi/fast-ui/blob/2a89e6d/packages/fast-ui-app/src/index.tsx#L1"
+				}
+			]
+		},
+		{
+			"id": 1,
+			"name": "fast-ui-app/src/App",
+			"variant": "declaration",
+			"kind": 2,
+			"flags": {},
+			"children": [
+				{
+					"id": 2,
+					"name": "default",
+					"variant": "declaration",
+					"kind": 64,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/fast-ui-app/src/App.tsx",
+							"line": 16,
+							"character": 24,
+							"url": "https://github.com/QubitPi/fast-ui/blob/2a89e6d/packages/fast-ui-app/src/App.tsx#L16"
+						}
+					],
+					"signatures": [
+						{
+							"id": 3,
+							"name": "default",
+							"variant": "signature",
+							"kind": 4096,
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "Copyright 2025 Jiaqi Liu. All rights reserved.\n\nLicensed under the Apache License, Version 2.0 (the \"License\");\nyou may not use this file except in compliance with the License.\nYou may obtain a copy of the License at\n\n    http://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software\ndistributed under the License is distributed on an \"AS IS\" BASIS,\nWITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\nSee the License for the specific language governing permissions and\nlimitations under the License."
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "packages/fast-ui-app/src/App.tsx",
+									"line": 16,
+									"character": 24,
+									"url": "https://github.com/QubitPi/fast-ui/blob/2a89e6d/packages/fast-ui-app/src/App.tsx#L16"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../node_modules/@types/react/index.d.ts",
+									"qualifiedName": "__global.JSX.Element"
+								},
+								"name": "JSX.Element",
+								"package": "@types/react",
+								"qualifiedName": "__global.JSX.Element"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Functions",
+					"children": [
+						2
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/fast-ui-app/src/App.tsx",
+					"line": 1,
+					"character": 0,
+					"url": "https://github.com/QubitPi/fast-ui/blob/2a89e6d/packages/fast-ui-app/src/App.tsx#L1"
+				}
+			]
+		},
+		{
+			"id": 5,
+			"name": "fast-ui-i18n",
+			"variant": "declaration",
+			"kind": 2,
+			"flags": {},
+			"children": [
+				{
+					"id": 109,
+					"name": "i18n",
+					"variant": "reference",
+					"kind": 4194304,
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Copyright 2025 Jiaqi Liu. All rights reserved.\n\nLicensed under the Apache License, Version 2.0 (the \"License\");\nyou may not use this file except in compliance with the License.\nYou may obtain a copy of the License at\n\n    http://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software\ndistributed under the License is distributed on an \"AS IS\" BASIS,\nWITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\nSee the License for the specific language governing permissions and\nlimitations under the License."
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "packages/fast-ui-i18n/index.ts",
+							"line": 16,
+							"character": 20,
+							"url": "https://github.com/QubitPi/fast-ui/blob/2a89e6d/packages/fast-ui-i18n/index.ts#L16"
+						}
+					],
+					"target": 7
+				}
+			],
+			"groups": [
+				{
+					"title": "References",
+					"children": [
+						109
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/fast-ui-i18n/index.ts",
+					"line": 1,
+					"character": 0,
+					"url": "https://github.com/QubitPi/fast-ui/blob/2a89e6d/packages/fast-ui-i18n/index.ts#L1"
+				}
+			]
+		},
+		{
+			"id": 6,
+			"name": "fast-ui-i18n/src/i18n",
+			"variant": "declaration",
+			"kind": 2,
+			"flags": {},
+			"children": [
+				{
+					"id": 7,
+					"name": "default",
+					"variant": "declaration",
+					"kind": 32,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/fast-ui-i18n/src/i18n.ts",
+							"line": 19,
+							"character": 0,
+							"url": "https://github.com/QubitPi/fast-ui/blob/2a89e6d/packages/fast-ui-i18n/src/i18n.ts#L19"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
+							"qualifiedName": "Promise"
+						},
+						"typeArguments": [
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../node_modules/i18next/typescript/t.d.ts",
+									"qualifiedName": "TFunction"
+								},
+								"typeArguments": [
+									{
+										"type": "literal",
+										"value": "translation"
+									},
+									{
+										"type": "intrinsic",
+										"name": "undefined"
+									}
+								],
+								"name": "TFunction",
+								"package": "i18next"
+							}
+						],
+						"name": "Promise",
+						"package": "typescript"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Variables",
+					"children": [
+						7
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/fast-ui-i18n/src/i18n.ts",
+					"line": 1,
+					"character": 0,
+					"url": "https://github.com/QubitPi/fast-ui/blob/2a89e6d/packages/fast-ui-i18n/src/i18n.ts#L1"
+				}
+			]
+		},
+		{
+			"id": 8,
+			"name": "fast-ui-redux",
+			"variant": "declaration",
+			"kind": 2,
+			"flags": {},
+			"children": [
+				{
+					"id": 112,
+					"name": "selectMyState1",
+					"variant": "reference",
+					"kind": 4194304,
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Copyright 2025 Jiaqi Liu. All rights reserved.\n\nLicensed under the Apache License, Version 2.0 (the \"License\");\nyou may not use this file except in compliance with the License.\nYou may obtain a copy of the License at\n\n    http://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software\ndistributed under the License is distributed on an \"AS IS\" BASIS,\nWITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\nSee the License for the specific language governing permissions and\nlimitations under the License."
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "packages/fast-ui-redux/index.ts",
+							"line": 16,
+							"character": 35,
+							"url": "https://github.com/QubitPi/fast-ui/blob/2a89e6d/packages/fast-ui-redux/index.ts#L16"
+						}
+					],
+					"target": 56
+				},
+				{
+					"id": 113,
+					"name": "selectMyState2",
+					"variant": "reference",
+					"kind": 4194304,
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Copyright 2025 Jiaqi Liu. All rights reserved.\n\nLicensed under the Apache License, Version 2.0 (the \"License\");\nyou may not use this file except in compliance with the License.\nYou may obtain a copy of the License at\n\n    http://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software\ndistributed under the License is distributed on an \"AS IS\" BASIS,\nWITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\nSee the License for the specific language governing permissions and\nlimitations under the License."
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "packages/fast-ui-redux/index.ts",
+							"line": 16,
+							"character": 51,
+							"url": "https://github.com/QubitPi/fast-ui/blob/2a89e6d/packages/fast-ui-redux/index.ts#L16"
+						}
+					],
+					"target": 61
+				},
+				{
+					"id": 110,
+					"name": "setMyState1",
+					"variant": "reference",
+					"kind": 4194304,
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Copyright 2025 Jiaqi Liu. All rights reserved.\n\nLicensed under the Apache License, Version 2.0 (the \"License\");\nyou may not use this file except in compliance with the License.\nYou may obtain a copy of the License at\n\n    http://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software\ndistributed under the License is distributed on an \"AS IS\" BASIS,\nWITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\nSee the License for the specific language governing permissions and\nlimitations under the License."
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "packages/fast-ui-redux/index.ts",
+							"line": 16,
+							"character": 9,
+							"url": "https://github.com/QubitPi/fast-ui/blob/2a89e6d/packages/fast-ui-redux/index.ts#L16"
+						}
+					],
+					"target": 28
+				},
+				{
+					"id": 111,
+					"name": "setMyState2",
+					"variant": "reference",
+					"kind": 4194304,
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Copyright 2025 Jiaqi Liu. All rights reserved.\n\nLicensed under the Apache License, Version 2.0 (the \"License\");\nyou may not use this file except in compliance with the License.\nYou may obtain a copy of the License at\n\n    http://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software\ndistributed under the License is distributed on an \"AS IS\" BASIS,\nWITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\nSee the License for the specific language governing permissions and\nlimitations under the License."
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "packages/fast-ui-redux/index.ts",
+							"line": 16,
+							"character": 22,
+							"url": "https://github.com/QubitPi/fast-ui/blob/2a89e6d/packages/fast-ui-redux/index.ts#L16"
+						}
+					],
+					"target": 42
+				},
+				{
+					"id": 116,
+					"name": "store",
+					"variant": "reference",
+					"kind": 4194304,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/fast-ui-redux/index.ts",
+							"line": 19,
+							"character": 9,
+							"url": "https://github.com/QubitPi/fast-ui/blob/2a89e6d/packages/fast-ui-redux/index.ts#L19"
+						}
+					],
+					"target": 100
+				},
+				{
+					"id": 115,
+					"name": "useAppDispatch",
+					"variant": "reference",
+					"kind": 4194304,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/fast-ui-redux/index.ts",
+							"line": 18,
+							"character": 25,
+							"url": "https://github.com/QubitPi/fast-ui/blob/2a89e6d/packages/fast-ui-redux/index.ts#L18"
+						}
+					],
+					"target": 67
+				},
+				{
+					"id": 114,
+					"name": "useAppSelector",
+					"variant": "reference",
+					"kind": 4194304,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/fast-ui-redux/index.ts",
+							"line": 18,
+							"character": 9,
+							"url": "https://github.com/QubitPi/fast-ui/blob/2a89e6d/packages/fast-ui-redux/index.ts#L18"
+						}
+					],
+					"target": 80
+				}
+			],
+			"groups": [
+				{
+					"title": "References",
+					"children": [
+						112,
+						113,
+						110,
+						111,
+						116,
+						115,
+						114
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/fast-ui-redux/index.ts",
+					"line": 1,
+					"character": 0,
+					"url": "https://github.com/QubitPi/fast-ui/blob/2a89e6d/packages/fast-ui-redux/index.ts#L1"
+				}
+			]
+		},
+		{
+			"id": 9,
+			"name": "fast-ui-redux/src/appSlice",
+			"variant": "declaration",
+			"kind": 2,
+			"flags": {},
+			"children": [
+				{
+					"id": 34,
+					"name": "setMyState1",
+					"variant": "declaration",
+					"kind": 4,
+					"flags": {},
+					"children": [
+						{
+							"id": 35,
+							"name": "type",
+							"variant": "declaration",
+							"kind": 32,
+							"flags": {
+								"isExternal": true
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/@reduxjs/toolkit/dist/index.d.ts",
+									"line": 651,
+									"character": 4
+								}
+							],
+							"type": {
+								"type": "literal",
+								"value": "app/setMyState1"
+							}
+						},
+						{
+							"id": 36,
+							"name": "match",
+							"variant": "declaration",
+							"kind": 64,
+							"flags": {
+								"isExternal": true
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/@reduxjs/toolkit/dist/index.d.ts",
+									"line": 652,
+									"character": 4
+								}
+							],
+							"signatures": [
+								{
+									"id": 37,
+									"name": "match",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {
+										"isExternal": true
+									},
+									"sources": [
+										{
+											"fileName": "node_modules/@reduxjs/toolkit/dist/index.d.ts",
+											"line": 652,
+											"character": 11
+										}
+									],
+									"parameters": [
+										{
+											"id": 38,
+											"name": "action",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {
+												"isExternal": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "unknown"
+											}
+										}
+									],
+									"type": {
+										"type": "predicate",
+										"name": "action",
+										"asserts": false,
+										"targetType": {
+											"type": "reflection",
+											"declaration": {
+												"id": 39,
+												"name": "__type",
+												"variant": "declaration",
+												"kind": 65536,
+												"flags": {
+													"isExternal": true
+												},
+												"children": [
+													{
+														"id": 40,
+														"name": "payload",
+														"variant": "declaration",
+														"kind": 1024,
+														"flags": {
+															"isExternal": true
+														},
+														"sources": [
+															{
+																"fileName": "node_modules/@reduxjs/toolkit/dist/index.d.ts",
+																"line": 608,
+																"character": 4
+															}
+														],
+														"type": {
+															"type": "intrinsic",
+															"name": "string"
+														}
+													},
+													{
+														"id": 41,
+														"name": "type",
+														"variant": "declaration",
+														"kind": 1024,
+														"flags": {
+															"isExternal": true
+														},
+														"sources": [
+															{
+																"fileName": "node_modules/@reduxjs/toolkit/dist/index.d.ts",
+																"line": 609,
+																"character": 4
+															}
+														],
+														"type": {
+															"type": "literal",
+															"value": "app/setMyState1"
+														}
+													}
+												],
+												"groups": [
+													{
+														"title": "Properties",
+														"children": [
+															40,
+															41
+														]
+													}
+												],
+												"sources": [
+													{
+														"fileName": "node_modules/@reduxjs/toolkit/dist/index.d.ts",
+														"line": 607,
+														"character": 80
+													}
+												]
+											}
+										}
+									}
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Variables",
+							"children": [
+								35
+							]
+						},
+						{
+							"title": "Functions",
+							"children": [
+								36
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "packages/fast-ui-redux/src/appSlice.ts",
+							"line": 43,
+							"character": 15,
+							"url": "https://github.com/QubitPi/fast-ui/blob/2a89e6d/packages/fast-ui-redux/src/appSlice.ts#L43"
+						}
+					]
+				},
+				{
+					"id": 48,
+					"name": "setMyState2",
+					"variant": "declaration",
+					"kind": 4,
+					"flags": {},
+					"children": [
+						{
+							"id": 49,
+							"name": "type",
+							"variant": "declaration",
+							"kind": 32,
+							"flags": {
+								"isExternal": true
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/@reduxjs/toolkit/dist/index.d.ts",
+									"line": 651,
+									"character": 4
+								}
+							],
+							"type": {
+								"type": "literal",
+								"value": "app/setMyState2"
+							}
+						},
+						{
+							"id": 50,
+							"name": "match",
+							"variant": "declaration",
+							"kind": 64,
+							"flags": {
+								"isExternal": true
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/@reduxjs/toolkit/dist/index.d.ts",
+									"line": 652,
+									"character": 4
+								}
+							],
+							"signatures": [
+								{
+									"id": 51,
+									"name": "match",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {
+										"isExternal": true
+									},
+									"sources": [
+										{
+											"fileName": "node_modules/@reduxjs/toolkit/dist/index.d.ts",
+											"line": 652,
+											"character": 11
+										}
+									],
+									"parameters": [
+										{
+											"id": 52,
+											"name": "action",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {
+												"isExternal": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "unknown"
+											}
+										}
+									],
+									"type": {
+										"type": "predicate",
+										"name": "action",
+										"asserts": false,
+										"targetType": {
+											"type": "reflection",
+											"declaration": {
+												"id": 53,
+												"name": "__type",
+												"variant": "declaration",
+												"kind": 65536,
+												"flags": {
+													"isExternal": true
+												},
+												"children": [
+													{
+														"id": 54,
+														"name": "payload",
+														"variant": "declaration",
+														"kind": 1024,
+														"flags": {
+															"isExternal": true
+														},
+														"sources": [
+															{
+																"fileName": "node_modules/@reduxjs/toolkit/dist/index.d.ts",
+																"line": 608,
+																"character": 4
+															}
+														],
+														"type": {
+															"type": "intrinsic",
+															"name": "boolean"
+														}
+													},
+													{
+														"id": 55,
+														"name": "type",
+														"variant": "declaration",
+														"kind": 1024,
+														"flags": {
+															"isExternal": true
+														},
+														"sources": [
+															{
+																"fileName": "node_modules/@reduxjs/toolkit/dist/index.d.ts",
+																"line": 609,
+																"character": 4
+															}
+														],
+														"type": {
+															"type": "literal",
+															"value": "app/setMyState2"
+														}
+													}
+												],
+												"groups": [
+													{
+														"title": "Properties",
+														"children": [
+															54,
+															55
+														]
+													}
+												],
+												"sources": [
+													{
+														"fileName": "node_modules/@reduxjs/toolkit/dist/index.d.ts",
+														"line": 607,
+														"character": 80
+													}
+												]
+											}
+										}
+									}
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Variables",
+							"children": [
+								49
+							]
+						},
+						{
+							"title": "Functions",
+							"children": [
+								50
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "packages/fast-ui-redux/src/appSlice.ts",
+							"line": 43,
+							"character": 28,
+							"url": "https://github.com/QubitPi/fast-ui/blob/2a89e6d/packages/fast-ui-redux/src/appSlice.ts#L43"
+						}
+					]
+				},
+				{
+					"id": 10,
+					"name": "appSlice",
+					"variant": "declaration",
+					"kind": 32,
+					"flags": {
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/fast-ui-redux/src/appSlice.ts",
+							"line": 30,
+							"character": 13,
+							"url": "https://github.com/QubitPi/fast-ui/blob/2a89e6d/packages/fast-ui-redux/src/appSlice.ts#L30"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../node_modules/@reduxjs/toolkit/dist/index.d.ts",
+							"qualifiedName": "Slice"
+						},
+						"typeArguments": [
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../packages/fast-ui-redux/src/appSlice.ts",
+									"qualifiedName": "AppState"
+								},
+								"name": "AppState",
+								"package": "fast-ui-redux"
+							},
+							{
+								"type": "reflection",
+								"declaration": {
+									"id": 11,
+									"name": "__type",
+									"variant": "declaration",
+									"kind": 65536,
+									"flags": {},
+									"children": [
+										{
+											"id": 12,
+											"name": "setMyState1",
+											"variant": "declaration",
+											"kind": 1024,
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "packages/fast-ui-redux/src/appSlice.ts",
+													"line": 34,
+													"character": 4,
+													"url": "https://github.com/QubitPi/fast-ui/blob/2a89e6d/packages/fast-ui-redux/src/appSlice.ts#L34"
+												}
+											],
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 13,
+													"name": "__type",
+													"variant": "declaration",
+													"kind": 65536,
+													"flags": {},
+													"sources": [
+														{
+															"fileName": "packages/fast-ui-redux/src/appSlice.ts",
+															"line": 34,
+															"character": 17,
+															"url": "https://github.com/QubitPi/fast-ui/blob/2a89e6d/packages/fast-ui-redux/src/appSlice.ts#L34"
+														}
+													],
+													"signatures": [
+														{
+															"id": 14,
+															"name": "__type",
+															"variant": "signature",
+															"kind": 4096,
+															"flags": {},
+															"sources": [
+																{
+																	"fileName": "packages/fast-ui-redux/src/appSlice.ts",
+																	"line": 34,
+																	"character": 17,
+																	"url": "https://github.com/QubitPi/fast-ui/blob/2a89e6d/packages/fast-ui-redux/src/appSlice.ts#L34"
+																}
+															],
+															"parameters": [
+																{
+																	"id": 15,
+																	"name": "state",
+																	"variant": "param",
+																	"kind": 32768,
+																	"flags": {},
+																	"type": {
+																		"type": "reference",
+																		"target": {
+																			"sourceFileName": "../node_modules/immer/dist/immer.d.ts",
+																			"qualifiedName": "WritableDraft"
+																		},
+																		"typeArguments": [
+																			{
+																				"type": "reference",
+																				"target": {
+																					"sourceFileName": "../packages/fast-ui-redux/src/appSlice.ts",
+																					"qualifiedName": "AppState"
+																				},
+																				"name": "AppState",
+																				"package": "fast-ui-redux"
+																			}
+																		],
+																		"name": "WritableDraft",
+																		"package": "immer"
+																	}
+																},
+																{
+																	"id": 16,
+																	"name": "action",
+																	"variant": "param",
+																	"kind": 32768,
+																	"flags": {},
+																	"type": {
+																		"type": "reflection",
+																		"declaration": {
+																			"id": 17,
+																			"name": "__type",
+																			"variant": "declaration",
+																			"kind": 65536,
+																			"flags": {},
+																			"children": [
+																				{
+																					"id": 18,
+																					"name": "payload",
+																					"variant": "declaration",
+																					"kind": 1024,
+																					"flags": {
+																						"isExternal": true
+																					},
+																					"sources": [
+																						{
+																							"fileName": "node_modules/@reduxjs/toolkit/dist/index.d.ts",
+																							"line": 608,
+																							"character": 4
+																						}
+																					],
+																					"type": {
+																						"type": "intrinsic",
+																						"name": "string"
+																					}
+																				},
+																				{
+																					"id": 19,
+																					"name": "type",
+																					"variant": "declaration",
+																					"kind": 1024,
+																					"flags": {
+																						"isExternal": true
+																					},
+																					"sources": [
+																						{
+																							"fileName": "node_modules/@reduxjs/toolkit/dist/index.d.ts",
+																							"line": 609,
+																							"character": 4
+																						}
+																					],
+																					"type": {
+																						"type": "intrinsic",
+																						"name": "string"
+																					}
+																				}
+																			],
+																			"groups": [
+																				{
+																					"title": "Properties",
+																					"children": [
+																						18,
+																						19
+																					]
+																				}
+																			],
+																			"sources": [
+																				{
+																					"fileName": "node_modules/@reduxjs/toolkit/dist/index.d.ts",
+																					"line": 607,
+																					"character": 80
+																				}
+																			]
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													]
+												}
+											},
+											"defaultValue": "..."
+										},
+										{
+											"id": 20,
+											"name": "setMyState2",
+											"variant": "declaration",
+											"kind": 1024,
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "packages/fast-ui-redux/src/appSlice.ts",
+													"line": 37,
+													"character": 4,
+													"url": "https://github.com/QubitPi/fast-ui/blob/2a89e6d/packages/fast-ui-redux/src/appSlice.ts#L37"
+												}
+											],
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 21,
+													"name": "__type",
+													"variant": "declaration",
+													"kind": 65536,
+													"flags": {},
+													"sources": [
+														{
+															"fileName": "packages/fast-ui-redux/src/appSlice.ts",
+															"line": 37,
+															"character": 17,
+															"url": "https://github.com/QubitPi/fast-ui/blob/2a89e6d/packages/fast-ui-redux/src/appSlice.ts#L37"
+														}
+													],
+													"signatures": [
+														{
+															"id": 22,
+															"name": "__type",
+															"variant": "signature",
+															"kind": 4096,
+															"flags": {},
+															"sources": [
+																{
+																	"fileName": "packages/fast-ui-redux/src/appSlice.ts",
+																	"line": 37,
+																	"character": 17,
+																	"url": "https://github.com/QubitPi/fast-ui/blob/2a89e6d/packages/fast-ui-redux/src/appSlice.ts#L37"
+																}
+															],
+															"parameters": [
+																{
+																	"id": 23,
+																	"name": "state",
+																	"variant": "param",
+																	"kind": 32768,
+																	"flags": {},
+																	"type": {
+																		"type": "reference",
+																		"target": {
+																			"sourceFileName": "../node_modules/immer/dist/immer.d.ts",
+																			"qualifiedName": "WritableDraft"
+																		},
+																		"typeArguments": [
+																			{
+																				"type": "reference",
+																				"target": {
+																					"sourceFileName": "../packages/fast-ui-redux/src/appSlice.ts",
+																					"qualifiedName": "AppState"
+																				},
+																				"name": "AppState",
+																				"package": "fast-ui-redux"
+																			}
+																		],
+																		"name": "WritableDraft",
+																		"package": "immer"
+																	}
+																},
+																{
+																	"id": 24,
+																	"name": "action",
+																	"variant": "param",
+																	"kind": 32768,
+																	"flags": {},
+																	"type": {
+																		"type": "reflection",
+																		"declaration": {
+																			"id": 25,
+																			"name": "__type",
+																			"variant": "declaration",
+																			"kind": 65536,
+																			"flags": {},
+																			"children": [
+																				{
+																					"id": 26,
+																					"name": "payload",
+																					"variant": "declaration",
+																					"kind": 1024,
+																					"flags": {
+																						"isExternal": true
+																					},
+																					"sources": [
+																						{
+																							"fileName": "node_modules/@reduxjs/toolkit/dist/index.d.ts",
+																							"line": 608,
+																							"character": 4
+																						}
+																					],
+																					"type": {
+																						"type": "intrinsic",
+																						"name": "boolean"
+																					}
+																				},
+																				{
+																					"id": 27,
+																					"name": "type",
+																					"variant": "declaration",
+																					"kind": 1024,
+																					"flags": {
+																						"isExternal": true
+																					},
+																					"sources": [
+																						{
+																							"fileName": "node_modules/@reduxjs/toolkit/dist/index.d.ts",
+																							"line": 609,
+																							"character": 4
+																						}
+																					],
+																					"type": {
+																						"type": "intrinsic",
+																						"name": "string"
+																					}
+																				}
+																			],
+																			"groups": [
+																				{
+																					"title": "Properties",
+																					"children": [
+																						26,
+																						27
+																					]
+																				}
+																			],
+																			"sources": [
+																				{
+																					"fileName": "node_modules/@reduxjs/toolkit/dist/index.d.ts",
+																					"line": 607,
+																					"character": 80
+																				}
+																			]
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													]
+												}
+											},
+											"defaultValue": "..."
+										}
+									],
+									"groups": [
+										{
+											"title": "Properties",
+											"children": [
+												12,
+												20
+											]
+										}
+									],
+									"sources": [
+										{
+											"fileName": "packages/fast-ui-redux/src/appSlice.ts",
+											"line": 33,
+											"character": 12,
+											"url": "https://github.com/QubitPi/fast-ui/blob/2a89e6d/packages/fast-ui-redux/src/appSlice.ts#L33"
+										}
+									]
+								}
+							},
+							{
+								"type": "literal",
+								"value": "app"
+							},
+							{
+								"type": "literal",
+								"value": "app"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../node_modules/@reduxjs/toolkit/dist/index.d.ts",
+									"qualifiedName": "SliceSelectors"
+								},
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../packages/fast-ui-redux/src/appSlice.ts",
+											"qualifiedName": "AppState"
+										},
+										"name": "AppState",
+										"package": "fast-ui-redux"
+									}
+								],
+								"name": "SliceSelectors",
+								"package": "@reduxjs/toolkit"
+							}
+						],
+						"name": "Slice",
+						"package": "@reduxjs/toolkit"
+					},
+					"defaultValue": "..."
+				},
+				{
+					"id": 117,
+					"name": "default",
+					"variant": "declaration",
+					"kind": 64,
+					"flags": {
+						"isExternal": true
+					},
+					"sources": [
+						{
+							"fileName": "node_modules/@reduxjs/toolkit/dist/index.d.ts",
+							"line": 1489,
+							"character": 4
+						}
+					],
+					"signatures": [
+						{
+							"id": 118,
+							"name": "default",
+							"variant": "signature",
+							"kind": 4096,
+							"flags": {
+								"isExternal": true
+							},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "A *reducer* is a function that accepts\nan accumulation and a value and returns a new accumulation. They are used\nto reduce a collection of values down to a single value\n\nReducers are not unique to Redux—they are a fundamental concept in\nfunctional programming.  Even most non-functional languages, like\nJavaScript, have a built-in API for reducing. In JavaScript, it's\n"
+									},
+									{
+										"kind": "code",
+										"text": "`Array.prototype.reduce()`"
+									},
+									{
+										"kind": "text",
+										"text": ".\n\nIn Redux, the accumulated value is the state object, and the values being\naccumulated are actions. Reducers calculate a new state given the previous\nstate and an action. They must be *pure functions*—functions that return\nthe exact same output for given inputs. They should also be free of\nside-effects. This is what enables exciting features like hot reloading and\ntime travel.\n\nReducers are the most important concept in Redux.\n\n*Do not put API calls into reducers.*"
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/redux/dist/redux.d.ts",
+									"line": 91,
+									"character": 78
+								}
+							],
+							"parameters": [
+								{
+									"id": 119,
+									"name": "state",
+									"variant": "param",
+									"kind": 32768,
+									"flags": {
+										"isExternal": true
+									},
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "undefined"
+											},
+											{
+												"type": "reference",
+												"target": {
+													"sourceFileName": "../packages/fast-ui-redux/src/appSlice.ts",
+													"qualifiedName": "AppState"
+												},
+												"name": "AppState",
+												"package": "fast-ui-redux"
+											}
+										]
+									}
+								},
+								{
+									"id": 120,
+									"name": "action",
+									"variant": "param",
+									"kind": 32768,
+									"flags": {
+										"isExternal": true
+									},
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../node_modules/redux/dist/redux.d.ts",
+											"qualifiedName": "UnknownAction"
+										},
+										"name": "UnknownAction",
+										"package": "redux"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../packages/fast-ui-redux/src/appSlice.ts",
+									"qualifiedName": "AppState"
+								},
+								"name": "AppState",
+								"package": "fast-ui-redux"
+							}
+						}
+					]
+				},
+				{
+					"id": 56,
+					"name": "selectMyState1",
+					"variant": "declaration",
+					"kind": 64,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/fast-ui-redux/src/appSlice.ts",
+							"line": 45,
+							"character": 13,
+							"url": "https://github.com/QubitPi/fast-ui/blob/2a89e6d/packages/fast-ui-redux/src/appSlice.ts#L45"
+						}
+					],
+					"signatures": [
+						{
+							"id": 57,
+							"name": "selectMyState1",
+							"variant": "signature",
+							"kind": 4096,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/fast-ui-redux/src/appSlice.ts",
+									"line": 45,
+									"character": 30,
+									"url": "https://github.com/QubitPi/fast-ui/blob/2a89e6d/packages/fast-ui-redux/src/appSlice.ts#L45"
+								}
+							],
+							"parameters": [
+								{
+									"id": 58,
+									"name": "state",
+									"variant": "param",
+									"kind": 32768,
+									"flags": {},
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 59,
+											"name": "__type",
+											"variant": "declaration",
+											"kind": 65536,
+											"flags": {},
+											"children": [
+												{
+													"id": 60,
+													"name": "app",
+													"variant": "declaration",
+													"kind": 1024,
+													"flags": {},
+													"sources": [
+														{
+															"fileName": "packages/fast-ui-redux/src/store.ts",
+															"line": 21,
+															"character": 4,
+															"url": "https://github.com/QubitPi/fast-ui/blob/2a89e6d/packages/fast-ui-redux/src/store.ts#L21"
+														}
+													],
+													"type": {
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../packages/fast-ui-redux/src/appSlice.ts",
+															"qualifiedName": "AppState"
+														},
+														"name": "AppState",
+														"package": "fast-ui-redux"
+													},
+													"defaultValue": "appReducer"
+												}
+											],
+											"groups": [
+												{
+													"title": "Properties",
+													"children": [
+														60
+													]
+												}
+											]
+										}
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						}
+					]
+				},
+				{
+					"id": 61,
+					"name": "selectMyState2",
+					"variant": "declaration",
+					"kind": 64,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/fast-ui-redux/src/appSlice.ts",
+							"line": 46,
+							"character": 13,
+							"url": "https://github.com/QubitPi/fast-ui/blob/2a89e6d/packages/fast-ui-redux/src/appSlice.ts#L46"
+						}
+					],
+					"signatures": [
+						{
+							"id": 62,
+							"name": "selectMyState2",
+							"variant": "signature",
+							"kind": 4096,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "packages/fast-ui-redux/src/appSlice.ts",
+									"line": 46,
+									"character": 30,
+									"url": "https://github.com/QubitPi/fast-ui/blob/2a89e6d/packages/fast-ui-redux/src/appSlice.ts#L46"
+								}
+							],
+							"parameters": [
+								{
+									"id": 63,
+									"name": "state",
+									"variant": "param",
+									"kind": 32768,
+									"flags": {},
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 64,
+											"name": "__type",
+											"variant": "declaration",
+											"kind": 65536,
+											"flags": {},
+											"children": [
+												{
+													"id": 65,
+													"name": "app",
+													"variant": "declaration",
+													"kind": 1024,
+													"flags": {},
+													"sources": [
+														{
+															"fileName": "packages/fast-ui-redux/src/store.ts",
+															"line": 21,
+															"character": 4,
+															"url": "https://github.com/QubitPi/fast-ui/blob/2a89e6d/packages/fast-ui-redux/src/store.ts#L21"
+														}
+													],
+													"type": {
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../packages/fast-ui-redux/src/appSlice.ts",
+															"qualifiedName": "AppState"
+														},
+														"name": "AppState",
+														"package": "fast-ui-redux"
+													},
+													"defaultValue": "appReducer"
+												}
+											],
+											"groups": [
+												{
+													"title": "Properties",
+													"children": [
+														65
+													]
+												}
+											]
+										}
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							}
+						}
+					]
+				},
+				{
+					"id": 28,
+					"name": "setMyState1",
+					"variant": "declaration",
+					"kind": 64,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/fast-ui-redux/src/appSlice.ts",
+							"line": 43,
+							"character": 15,
+							"url": "https://github.com/QubitPi/fast-ui/blob/2a89e6d/packages/fast-ui-redux/src/appSlice.ts#L43"
+						}
+					],
+					"signatures": [
+						{
+							"id": 29,
+							"name": "setMyState1",
+							"variant": "signature",
+							"kind": 4096,
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "Calling this "
+									},
+									{
+										"kind": "inline-tag",
+										"tag": "@link",
+										"text": "redux#ActionCreator"
+									},
+									{
+										"kind": "text",
+										"text": " with an argument will\nreturn a "
+									},
+									{
+										"kind": "inline-tag",
+										"tag": "@link",
+										"text": "PayloadAction",
+										"target": {
+											"sourceFileName": "../node_modules/@reduxjs/toolkit/dist/index.d.ts",
+											"qualifiedName": "PayloadAction"
+										},
+										"tsLinkText": ""
+									},
+									{
+										"kind": "text",
+										"text": " of type "
+									},
+									{
+										"kind": "code",
+										"text": "`T`"
+									},
+									{
+										"kind": "text",
+										"text": " with a payload of "
+									},
+									{
+										"kind": "code",
+										"text": "`P`"
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/@reduxjs/toolkit/dist/index.d.ts",
+									"line": 716,
+									"character": 4
+								}
+							],
+							"parameters": [
+								{
+									"id": 30,
+									"name": "payload",
+									"variant": "param",
+									"kind": 32768,
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 31,
+									"name": "__type",
+									"variant": "declaration",
+									"kind": 65536,
+									"flags": {},
+									"children": [
+										{
+											"id": 32,
+											"name": "payload",
+											"variant": "declaration",
+											"kind": 1024,
+											"flags": {
+												"isExternal": true
+											},
+											"sources": [
+												{
+													"fileName": "node_modules/@reduxjs/toolkit/dist/index.d.ts",
+													"line": 608,
+													"character": 4
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										},
+										{
+											"id": 33,
+											"name": "type",
+											"variant": "declaration",
+											"kind": 1024,
+											"flags": {
+												"isExternal": true
+											},
+											"sources": [
+												{
+													"fileName": "node_modules/@reduxjs/toolkit/dist/index.d.ts",
+													"line": 609,
+													"character": 4
+												}
+											],
+											"type": {
+												"type": "literal",
+												"value": "app/setMyState1"
+											}
+										}
+									],
+									"groups": [
+										{
+											"title": "Properties",
+											"children": [
+												32,
+												33
+											]
+										}
+									],
+									"sources": [
+										{
+											"fileName": "node_modules/@reduxjs/toolkit/dist/index.d.ts",
+											"line": 607,
+											"character": 80
+										}
+									]
+								}
+							}
+						}
+					]
+				},
+				{
+					"id": 42,
+					"name": "setMyState2",
+					"variant": "declaration",
+					"kind": 64,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/fast-ui-redux/src/appSlice.ts",
+							"line": 43,
+							"character": 28,
+							"url": "https://github.com/QubitPi/fast-ui/blob/2a89e6d/packages/fast-ui-redux/src/appSlice.ts#L43"
+						}
+					],
+					"signatures": [
+						{
+							"id": 43,
+							"name": "setMyState2",
+							"variant": "signature",
+							"kind": 4096,
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "Calling this "
+									},
+									{
+										"kind": "inline-tag",
+										"tag": "@link",
+										"text": "redux#ActionCreator"
+									},
+									{
+										"kind": "text",
+										"text": " with an argument will\nreturn a "
+									},
+									{
+										"kind": "inline-tag",
+										"tag": "@link",
+										"text": "PayloadAction",
+										"target": {
+											"sourceFileName": "../node_modules/@reduxjs/toolkit/dist/index.d.ts",
+											"qualifiedName": "PayloadAction"
+										},
+										"tsLinkText": ""
+									},
+									{
+										"kind": "text",
+										"text": " of type "
+									},
+									{
+										"kind": "code",
+										"text": "`T`"
+									},
+									{
+										"kind": "text",
+										"text": " with a payload of "
+									},
+									{
+										"kind": "code",
+										"text": "`P`"
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/@reduxjs/toolkit/dist/index.d.ts",
+									"line": 716,
+									"character": 4
+								}
+							],
+							"parameters": [
+								{
+									"id": 44,
+									"name": "payload",
+									"variant": "param",
+									"kind": 32768,
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									}
+								}
+							],
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 45,
+									"name": "__type",
+									"variant": "declaration",
+									"kind": 65536,
+									"flags": {},
+									"children": [
+										{
+											"id": 46,
+											"name": "payload",
+											"variant": "declaration",
+											"kind": 1024,
+											"flags": {
+												"isExternal": true
+											},
+											"sources": [
+												{
+													"fileName": "node_modules/@reduxjs/toolkit/dist/index.d.ts",
+													"line": 608,
+													"character": 4
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "boolean"
+											}
+										},
+										{
+											"id": 47,
+											"name": "type",
+											"variant": "declaration",
+											"kind": 1024,
+											"flags": {
+												"isExternal": true
+											},
+											"sources": [
+												{
+													"fileName": "node_modules/@reduxjs/toolkit/dist/index.d.ts",
+													"line": 609,
+													"character": 4
+												}
+											],
+											"type": {
+												"type": "literal",
+												"value": "app/setMyState2"
+											}
+										}
+									],
+									"groups": [
+										{
+											"title": "Properties",
+											"children": [
+												46,
+												47
+											]
+										}
+									],
+									"sources": [
+										{
+											"fileName": "node_modules/@reduxjs/toolkit/dist/index.d.ts",
+											"line": 607,
+											"character": 80
+										}
+									]
+								}
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Namespaces",
+					"children": [
+						34,
+						48
+					]
+				},
+				{
+					"title": "Variables",
+					"children": [
+						10
+					]
+				},
+				{
+					"title": "Functions",
+					"children": [
+						117,
+						56,
+						61,
+						28,
+						42
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/fast-ui-redux/src/appSlice.ts",
+					"line": 1,
+					"character": 0,
+					"url": "https://github.com/QubitPi/fast-ui/blob/2a89e6d/packages/fast-ui-redux/src/appSlice.ts#L1"
+				}
+			]
+		},
+		{
+			"id": 66,
+			"name": "fast-ui-redux/src/hooks",
+			"variant": "declaration",
+			"kind": 2,
+			"flags": {},
+			"children": [
+				{
+					"id": 74,
+					"name": "useAppDispatch",
+					"variant": "declaration",
+					"kind": 4,
+					"flags": {},
+					"children": [
+						{
+							"id": 75,
+							"name": "withTypes",
+							"variant": "declaration",
+							"kind": 64,
+							"flags": {
+								"isExternal": true
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/react-redux/dist/react-redux.d.ts",
+									"line": 451,
+									"character": 4
+								}
+							],
+							"signatures": [
+								{
+									"id": 76,
+									"name": "withTypes",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {
+										"isExternal": true
+									},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "Creates a \"pre-typed\" version of "
+											},
+											{
+												"kind": "inline-tag",
+												"tag": "@linkcode",
+												"text": "useDispatch useDispatch",
+												"target": {
+													"sourceFileName": "../node_modules/react-redux/dist/react-redux.d.ts",
+													"qualifiedName": "useDispatch"
+												},
+												"tsLinkText": "useDispatch"
+											},
+											{
+												"kind": "text",
+												"text": "\nwhere the type of the "
+											},
+											{
+												"kind": "code",
+												"text": "`dispatch`"
+											},
+											{
+												"kind": "text",
+												"text": " function is predefined.\n\nThis allows you to set the "
+											},
+											{
+												"kind": "code",
+												"text": "`dispatch`"
+											},
+											{
+												"kind": "text",
+												"text": " type once, eliminating the need to\nspecify it with every "
+											},
+											{
+												"kind": "inline-tag",
+												"tag": "@linkcode",
+												"text": "useDispatch useDispatch",
+												"target": {
+													"sourceFileName": "../node_modules/react-redux/dist/react-redux.d.ts",
+													"qualifiedName": "useDispatch"
+												},
+												"tsLinkText": "useDispatch"
+											},
+											{
+												"kind": "text",
+												"text": " call."
+											}
+										],
+										"blockTags": [
+											{
+												"tag": "@returns",
+												"content": [
+													{
+														"kind": "text",
+														"text": "A pre-typed "
+													},
+													{
+														"kind": "code",
+														"text": "`useDispatch`"
+													},
+													{
+														"kind": "text",
+														"text": " with the dispatch type already defined."
+													}
+												]
+											},
+											{
+												"tag": "@example",
+												"content": [
+													{
+														"kind": "code",
+														"text": "```ts\nexport const useAppDispatch = useDispatch.withTypes<AppDispatch>()\n```"
+													}
+												]
+											},
+											{
+												"tag": "@since",
+												"content": [
+													{
+														"kind": "text",
+														"text": "9.1.0"
+													}
+												]
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "node_modules/react-redux/dist/react-redux.d.ts",
+											"line": 451,
+											"character": 15
+										}
+									],
+									"typeParameter": [
+										{
+											"id": 77,
+											"name": "OverrideDispatchType",
+											"variant": "typeParam",
+											"kind": 131072,
+											"flags": {
+												"isExternal": true
+											},
+											"comment": {
+												"summary": [
+													{
+														"kind": "text",
+														"text": "The specific type of the dispatch function."
+													}
+												]
+											},
+											"type": {
+												"type": "intersection",
+												"types": [
+													{
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../node_modules/redux-thunk/dist/redux-thunk.d.ts",
+															"qualifiedName": "ThunkDispatch"
+														},
+														"typeArguments": [
+															{
+																"type": "reflection",
+																"declaration": {
+																	"id": 78,
+																	"name": "__type",
+																	"variant": "declaration",
+																	"kind": 65536,
+																	"flags": {
+																		"isExternal": true
+																	},
+																	"children": [
+																		{
+																			"id": 79,
+																			"name": "app",
+																			"variant": "declaration",
+																			"kind": 1024,
+																			"flags": {
+																				"isExternal": true
+																			},
+																			"sources": [
+																				{
+																					"fileName": "packages/fast-ui-redux/src/store.ts",
+																					"line": 21,
+																					"character": 4,
+																					"url": "https://github.com/QubitPi/fast-ui/blob/2a89e6d/packages/fast-ui-redux/src/store.ts#L21"
+																				}
+																			],
+																			"type": {
+																				"type": "reference",
+																				"target": {
+																					"sourceFileName": "../packages/fast-ui-redux/src/appSlice.ts",
+																					"qualifiedName": "AppState"
+																				},
+																				"name": "AppState",
+																				"package": "fast-ui-redux"
+																			},
+																			"defaultValue": "appReducer"
+																		}
+																	],
+																	"groups": [
+																		{
+																			"title": "Properties",
+																			"children": [
+																				79
+																			]
+																		}
+																	]
+																}
+															},
+															{
+																"type": "intrinsic",
+																"name": "undefined"
+															},
+															{
+																"type": "reference",
+																"target": {
+																	"sourceFileName": "../node_modules/redux/dist/redux.d.ts",
+																	"qualifiedName": "UnknownAction"
+																},
+																"name": "UnknownAction",
+																"package": "redux"
+															}
+														],
+														"name": "ThunkDispatch",
+														"package": "redux-thunk"
+													},
+													{
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../node_modules/redux/dist/redux.d.ts",
+															"qualifiedName": "Dispatch"
+														},
+														"typeArguments": [
+															{
+																"type": "reference",
+																"target": {
+																	"sourceFileName": "../node_modules/redux/dist/redux.d.ts",
+																	"qualifiedName": "UnknownAction"
+																},
+																"name": "UnknownAction",
+																"package": "redux"
+															}
+														],
+														"name": "Dispatch",
+														"package": "redux"
+													}
+												]
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../node_modules/react-redux/dist/react-redux.d.ts",
+											"qualifiedName": "UseDispatch"
+										},
+										"typeArguments": [
+											{
+												"type": "reference",
+												"target": -1,
+												"name": "OverrideDispatchType",
+												"refersToTypeParameter": true
+											}
+										],
+										"name": "UseDispatch",
+										"package": "react-redux"
+									}
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Functions",
+							"children": [
+								75
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "packages/fast-ui-redux/src/hooks.ts",
+							"line": 19,
+							"character": 13,
+							"url": "https://github.com/QubitPi/fast-ui/blob/2a89e6d/packages/fast-ui-redux/src/hooks.ts#L19"
+						}
+					]
+				},
+				{
+					"id": 93,
+					"name": "useAppSelector",
+					"variant": "declaration",
+					"kind": 4,
+					"flags": {},
+					"children": [
+						{
+							"id": 94,
+							"name": "withTypes",
+							"variant": "declaration",
+							"kind": 64,
+							"flags": {
+								"isExternal": true
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/react-redux/dist/react-redux.d.ts",
+									"line": 218,
+									"character": 4
+								}
+							],
+							"signatures": [
+								{
+									"id": 95,
+									"name": "withTypes",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {
+										"isExternal": true
+									},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "Creates a \"pre-typed\" version of "
+											},
+											{
+												"kind": "inline-tag",
+												"tag": "@linkcode",
+												"text": "useSelector useSelector",
+												"target": {
+													"sourceFileName": "../node_modules/react-redux/dist/react-redux.d.ts",
+													"qualifiedName": "useSelector"
+												},
+												"tsLinkText": "useSelector"
+											},
+											{
+												"kind": "text",
+												"text": "\nwhere the "
+											},
+											{
+												"kind": "code",
+												"text": "`state`"
+											},
+											{
+												"kind": "text",
+												"text": " type is predefined.\n\nThis allows you to set the "
+											},
+											{
+												"kind": "code",
+												"text": "`state`"
+											},
+											{
+												"kind": "text",
+												"text": " type once, eliminating the need to\nspecify it with every "
+											},
+											{
+												"kind": "inline-tag",
+												"tag": "@linkcode",
+												"text": "useSelector useSelector",
+												"target": {
+													"sourceFileName": "../node_modules/react-redux/dist/react-redux.d.ts",
+													"qualifiedName": "useSelector"
+												},
+												"tsLinkText": "useSelector"
+											},
+											{
+												"kind": "text",
+												"text": " call."
+											}
+										],
+										"blockTags": [
+											{
+												"tag": "@returns",
+												"content": [
+													{
+														"kind": "text",
+														"text": "A pre-typed "
+													},
+													{
+														"kind": "code",
+														"text": "`useSelector`"
+													},
+													{
+														"kind": "text",
+														"text": " with the state type already defined."
+													}
+												]
+											},
+											{
+												"tag": "@example",
+												"content": [
+													{
+														"kind": "code",
+														"text": "```ts\nexport const useAppSelector = useSelector.withTypes<RootState>()\n```"
+													}
+												]
+											},
+											{
+												"tag": "@since",
+												"content": [
+													{
+														"kind": "text",
+														"text": "9.1.0"
+													}
+												]
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "node_modules/react-redux/dist/react-redux.d.ts",
+											"line": 218,
+											"character": 15
+										}
+									],
+									"typeParameter": [
+										{
+											"id": 96,
+											"name": "OverrideStateType",
+											"variant": "typeParam",
+											"kind": 131072,
+											"flags": {
+												"isExternal": true
+											},
+											"comment": {
+												"summary": [
+													{
+														"kind": "text",
+														"text": "The specific type of state this hook operates on."
+													}
+												]
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 97,
+													"name": "__type",
+													"variant": "declaration",
+													"kind": 65536,
+													"flags": {
+														"isExternal": true
+													},
+													"children": [
+														{
+															"id": 98,
+															"name": "app",
+															"variant": "declaration",
+															"kind": 1024,
+															"flags": {
+																"isExternal": true
+															},
+															"sources": [
+																{
+																	"fileName": "packages/fast-ui-redux/src/store.ts",
+																	"line": 21,
+																	"character": 4,
+																	"url": "https://github.com/QubitPi/fast-ui/blob/2a89e6d/packages/fast-ui-redux/src/store.ts#L21"
+																}
+															],
+															"type": {
+																"type": "reference",
+																"target": {
+																	"sourceFileName": "../packages/fast-ui-redux/src/appSlice.ts",
+																	"qualifiedName": "AppState"
+																},
+																"name": "AppState",
+																"package": "fast-ui-redux"
+															},
+															"defaultValue": "appReducer"
+														}
+													],
+													"groups": [
+														{
+															"title": "Properties",
+															"children": [
+																98
+															]
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "../node_modules/react-redux/dist/react-redux.d.ts",
+											"qualifiedName": "UseSelector"
+										},
+										"typeArguments": [
+											{
+												"type": "reference",
+												"target": -1,
+												"name": "OverrideStateType",
+												"refersToTypeParameter": true
+											}
+										],
+										"name": "UseSelector",
+										"package": "react-redux"
+									}
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Functions",
+							"children": [
+								94
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "packages/fast-ui-redux/src/hooks.ts",
+							"line": 20,
+							"character": 13,
+							"url": "https://github.com/QubitPi/fast-ui/blob/2a89e6d/packages/fast-ui-redux/src/hooks.ts#L20"
+						}
+					]
+				},
+				{
+					"id": 67,
+					"name": "useAppDispatch",
+					"variant": "declaration",
+					"kind": 64,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/fast-ui-redux/src/hooks.ts",
+							"line": 19,
+							"character": 13,
+							"url": "https://github.com/QubitPi/fast-ui/blob/2a89e6d/packages/fast-ui-redux/src/hooks.ts#L19"
+						}
+					],
+					"signatures": [
+						{
+							"id": 68,
+							"name": "useAppDispatch",
+							"variant": "signature",
+							"kind": 4096,
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "Returns the dispatch function from the Redux store."
+									}
+								],
+								"blockTags": [
+									{
+										"tag": "@returns",
+										"content": [
+											{
+												"kind": "text",
+												"text": "The dispatch function from the Redux store."
+											}
+										]
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/react-redux/dist/react-redux.d.ts",
+									"line": 432,
+									"character": 4
+								}
+							],
+							"typeParameter": [
+								{
+									"id": 69,
+									"name": "AppDispatch",
+									"variant": "typeParam",
+									"kind": 131072,
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "The specific type of the dispatch function."
+											}
+										]
+									},
+									"type": {
+										"type": "intersection",
+										"types": [
+											{
+												"type": "reference",
+												"target": {
+													"sourceFileName": "../node_modules/redux-thunk/dist/redux-thunk.d.ts",
+													"qualifiedName": "ThunkDispatch"
+												},
+												"typeArguments": [
+													{
+														"type": "reflection",
+														"declaration": {
+															"id": 70,
+															"name": "__type",
+															"variant": "declaration",
+															"kind": 65536,
+															"flags": {},
+															"children": [
+																{
+																	"id": 71,
+																	"name": "app",
+																	"variant": "declaration",
+																	"kind": 1024,
+																	"flags": {},
+																	"sources": [
+																		{
+																			"fileName": "packages/fast-ui-redux/src/store.ts",
+																			"line": 21,
+																			"character": 4,
+																			"url": "https://github.com/QubitPi/fast-ui/blob/2a89e6d/packages/fast-ui-redux/src/store.ts#L21"
+																		}
+																	],
+																	"type": {
+																		"type": "reference",
+																		"target": {
+																			"sourceFileName": "../packages/fast-ui-redux/src/appSlice.ts",
+																			"qualifiedName": "AppState"
+																		},
+																		"name": "AppState",
+																		"package": "fast-ui-redux"
+																	},
+																	"defaultValue": "appReducer"
+																}
+															],
+															"groups": [
+																{
+																	"title": "Properties",
+																	"children": [
+																		71
+																	]
+																}
+															]
+														}
+													},
+													{
+														"type": "intrinsic",
+														"name": "undefined"
+													},
+													{
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../node_modules/redux/dist/redux.d.ts",
+															"qualifiedName": "UnknownAction"
+														},
+														"name": "UnknownAction",
+														"package": "redux"
+													}
+												],
+												"name": "ThunkDispatch",
+												"package": "redux-thunk"
+											},
+											{
+												"type": "reference",
+												"target": {
+													"sourceFileName": "../node_modules/redux/dist/redux.d.ts",
+													"qualifiedName": "Dispatch"
+												},
+												"typeArguments": [
+													{
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../node_modules/redux/dist/redux.d.ts",
+															"qualifiedName": "UnknownAction"
+														},
+														"name": "UnknownAction",
+														"package": "redux"
+													}
+												],
+												"name": "Dispatch",
+												"package": "redux"
+											}
+										]
+									},
+									"default": {
+										"type": "intersection",
+										"types": [
+											{
+												"type": "reference",
+												"target": {
+													"sourceFileName": "../node_modules/redux-thunk/dist/redux-thunk.d.ts",
+													"qualifiedName": "ThunkDispatch"
+												},
+												"typeArguments": [
+													{
+														"type": "reflection",
+														"declaration": {
+															"id": 72,
+															"name": "__type",
+															"variant": "declaration",
+															"kind": 65536,
+															"flags": {},
+															"children": [
+																{
+																	"id": 73,
+																	"name": "app",
+																	"variant": "declaration",
+																	"kind": 1024,
+																	"flags": {},
+																	"sources": [
+																		{
+																			"fileName": "packages/fast-ui-redux/src/store.ts",
+																			"line": 21,
+																			"character": 4,
+																			"url": "https://github.com/QubitPi/fast-ui/blob/2a89e6d/packages/fast-ui-redux/src/store.ts#L21"
+																		}
+																	],
+																	"type": {
+																		"type": "reference",
+																		"target": {
+																			"sourceFileName": "../packages/fast-ui-redux/src/appSlice.ts",
+																			"qualifiedName": "AppState"
+																		},
+																		"name": "AppState",
+																		"package": "fast-ui-redux"
+																	},
+																	"defaultValue": "appReducer"
+																}
+															],
+															"groups": [
+																{
+																	"title": "Properties",
+																	"children": [
+																		73
+																	]
+																}
+															]
+														}
+													},
+													{
+														"type": "intrinsic",
+														"name": "undefined"
+													},
+													{
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../node_modules/redux/dist/redux.d.ts",
+															"qualifiedName": "UnknownAction"
+														},
+														"name": "UnknownAction",
+														"package": "redux"
+													}
+												],
+												"name": "ThunkDispatch",
+												"package": "redux-thunk"
+											},
+											{
+												"type": "reference",
+												"target": {
+													"sourceFileName": "../node_modules/redux/dist/redux.d.ts",
+													"qualifiedName": "Dispatch"
+												},
+												"typeArguments": [
+													{
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../node_modules/redux/dist/redux.d.ts",
+															"qualifiedName": "UnknownAction"
+														},
+														"name": "UnknownAction",
+														"package": "redux"
+													}
+												],
+												"name": "Dispatch",
+												"package": "redux"
+											}
+										]
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": -1,
+								"name": "AppDispatch",
+								"refersToTypeParameter": true
+							}
+						}
+					]
+				},
+				{
+					"id": 80,
+					"name": "useAppSelector",
+					"variant": "declaration",
+					"kind": 64,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/fast-ui-redux/src/hooks.ts",
+							"line": 20,
+							"character": 13,
+							"url": "https://github.com/QubitPi/fast-ui/blob/2a89e6d/packages/fast-ui-redux/src/hooks.ts#L20"
+						}
+					],
+					"signatures": [
+						{
+							"id": 81,
+							"name": "useAppSelector",
+							"variant": "signature",
+							"kind": 4096,
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "A function that takes a selector function as its first argument.\nThe selector function is responsible for selecting a part of\nthe Redux store's state or computing derived data."
+									}
+								],
+								"blockTags": [
+									{
+										"tag": "@returns",
+										"content": [
+											{
+												"kind": "text",
+												"text": "The selected part of the state or derived data."
+											}
+										]
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/react-redux/dist/react-redux.d.ts",
+									"line": 199,
+									"character": 4
+								}
+							],
+							"typeParameter": [
+								{
+									"id": 82,
+									"name": "TState",
+									"variant": "typeParam",
+									"kind": 131072,
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "The specific type of state this hook operates on."
+											}
+										]
+									},
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 83,
+											"name": "__type",
+											"variant": "declaration",
+											"kind": 65536,
+											"flags": {},
+											"children": [
+												{
+													"id": 84,
+													"name": "app",
+													"variant": "declaration",
+													"kind": 1024,
+													"flags": {},
+													"sources": [
+														{
+															"fileName": "packages/fast-ui-redux/src/store.ts",
+															"line": 21,
+															"character": 4,
+															"url": "https://github.com/QubitPi/fast-ui/blob/2a89e6d/packages/fast-ui-redux/src/store.ts#L21"
+														}
+													],
+													"type": {
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../packages/fast-ui-redux/src/appSlice.ts",
+															"qualifiedName": "AppState"
+														},
+														"name": "AppState",
+														"package": "fast-ui-redux"
+													},
+													"defaultValue": "appReducer"
+												}
+											],
+											"groups": [
+												{
+													"title": "Properties",
+													"children": [
+														84
+													]
+												}
+											]
+										}
+									},
+									"default": {
+										"type": "reflection",
+										"declaration": {
+											"id": 85,
+											"name": "__type",
+											"variant": "declaration",
+											"kind": 65536,
+											"flags": {},
+											"children": [
+												{
+													"id": 86,
+													"name": "app",
+													"variant": "declaration",
+													"kind": 1024,
+													"flags": {},
+													"sources": [
+														{
+															"fileName": "packages/fast-ui-redux/src/store.ts",
+															"line": 21,
+															"character": 4,
+															"url": "https://github.com/QubitPi/fast-ui/blob/2a89e6d/packages/fast-ui-redux/src/store.ts#L21"
+														}
+													],
+													"type": {
+														"type": "reference",
+														"target": {
+															"sourceFileName": "../packages/fast-ui-redux/src/appSlice.ts",
+															"qualifiedName": "AppState"
+														},
+														"name": "AppState",
+														"package": "fast-ui-redux"
+													},
+													"defaultValue": "appReducer"
+												}
+											],
+											"groups": [
+												{
+													"title": "Properties",
+													"children": [
+														86
+													]
+												}
+											]
+										}
+									}
+								},
+								{
+									"id": 87,
+									"name": "Selected",
+									"variant": "typeParam",
+									"kind": 131072,
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "The type of the value that the selector function will return."
+											}
+										]
+									},
+									"default": {
+										"type": "intrinsic",
+										"name": "unknown"
+									}
+								}
+							],
+							"parameters": [
+								{
+									"id": 88,
+									"name": "selector",
+									"variant": "param",
+									"kind": 32768,
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "A function that receives the current state and returns a part of the state or some derived data."
+											}
+										]
+									},
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 89,
+											"name": "__type",
+											"variant": "declaration",
+											"kind": 65536,
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "node_modules/react-redux/dist/react-redux.d.ts",
+													"line": 199,
+													"character": 73
+												}
+											],
+											"signatures": [
+												{
+													"id": 90,
+													"name": "__type",
+													"variant": "signature",
+													"kind": 4096,
+													"flags": {},
+													"sources": [
+														{
+															"fileName": "node_modules/react-redux/dist/react-redux.d.ts",
+															"line": 199,
+															"character": 73
+														}
+													],
+													"parameters": [
+														{
+															"id": 91,
+															"name": "state",
+															"variant": "param",
+															"kind": 32768,
+															"flags": {},
+															"type": {
+																"type": "reference",
+																"target": -1,
+																"name": "TState",
+																"refersToTypeParameter": true
+															}
+														}
+													],
+													"type": {
+														"type": "reference",
+														"target": -1,
+														"name": "Selected",
+														"refersToTypeParameter": true
+													}
+												}
+											]
+										}
+									}
+								},
+								{
+									"id": 92,
+									"name": "equalityFnOrOptions",
+									"variant": "param",
+									"kind": 32768,
+									"flags": {
+										"isOptional": true
+									},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "An optional equality function or options object for customizing the behavior of the selector."
+											}
+										]
+									},
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "reference",
+												"target": {
+													"sourceFileName": "../node_modules/react-redux/dist/react-redux.d.ts",
+													"qualifiedName": "EqualityFn"
+												},
+												"typeArguments": [
+													{
+														"type": "reference",
+														"target": -1,
+														"name": "Selected",
+														"refersToTypeParameter": true
+													}
+												],
+												"name": "EqualityFn",
+												"package": "react-redux"
+											},
+											{
+												"type": "reference",
+												"target": {
+													"sourceFileName": "../node_modules/react-redux/dist/react-redux.d.ts",
+													"qualifiedName": "UseSelectorOptions"
+												},
+												"typeArguments": [
+													{
+														"type": "reference",
+														"target": -1,
+														"name": "Selected",
+														"refersToTypeParameter": true
+													}
+												],
+												"name": "UseSelectorOptions",
+												"package": "react-redux"
+											}
+										]
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"target": -1,
+								"name": "Selected",
+								"refersToTypeParameter": true
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Namespaces",
+					"children": [
+						74,
+						93
+					]
+				},
+				{
+					"title": "Functions",
+					"children": [
+						67,
+						80
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/fast-ui-redux/src/hooks.ts",
+					"line": 1,
+					"character": 0,
+					"url": "https://github.com/QubitPi/fast-ui/blob/2a89e6d/packages/fast-ui-redux/src/hooks.ts#L1"
+				}
+			]
+		},
+		{
+			"id": 99,
+			"name": "fast-ui-redux/src/store",
+			"variant": "declaration",
+			"kind": 2,
+			"flags": {},
+			"children": [
+				{
+					"id": 108,
+					"name": "AppDispatch",
+					"variant": "declaration",
+					"kind": 2097152,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/fast-ui-redux/src/store.ts",
+							"line": 26,
+							"character": 12,
+							"url": "https://github.com/QubitPi/fast-ui/blob/2a89e6d/packages/fast-ui-redux/src/store.ts#L26"
+						}
+					],
+					"type": {
+						"type": "query",
+						"queryType": {
+							"type": "reference",
+							"target": {
+								"sourceFileName": "../node_modules/@reduxjs/toolkit/dist/index.d.ts",
+								"qualifiedName": "dispatch"
+							},
+							"name": "store.dispatch",
+							"package": "@reduxjs/toolkit",
+							"qualifiedName": "dispatch"
+						}
+					}
+				},
+				{
+					"id": 107,
+					"name": "RootState",
+					"variant": "declaration",
+					"kind": 2097152,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "packages/fast-ui-redux/src/store.ts",
+							"line": 25,
+							"character": 12,
+							"url": "https://github.com/QubitPi/fast-ui/blob/2a89e6d/packages/fast-ui-redux/src/store.ts#L25"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
+							"qualifiedName": "ReturnType"
+						},
+						"typeArguments": [
+							{
+								"type": "query",
+								"queryType": {
+									"type": "reference",
+									"target": {
+										"sourceFileName": "../node_modules/redux/dist/redux.d.ts",
+										"qualifiedName": "Store.getState"
+									},
+									"name": "store.getState",
+									"package": "redux",
+									"qualifiedName": "Store.getState"
+								}
+							}
+						],
+						"name": "ReturnType",
+						"package": "typescript"
+					}
+				},
+				{
+					"id": 100,
+					"name": "store",
+					"variant": "declaration",
+					"kind": 32,
+					"flags": {
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "packages/fast-ui-redux/src/store.ts",
+							"line": 19,
+							"character": 13,
+							"url": "https://github.com/QubitPi/fast-ui/blob/2a89e6d/packages/fast-ui-redux/src/store.ts#L19"
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "../node_modules/@reduxjs/toolkit/dist/index.d.ts",
+							"qualifiedName": "EnhancedStore"
+						},
+						"typeArguments": [
+							{
+								"type": "reflection",
+								"declaration": {
+									"id": 101,
+									"name": "__type",
+									"variant": "declaration",
+									"kind": 65536,
+									"flags": {},
+									"children": [
+										{
+											"id": 102,
+											"name": "app",
+											"variant": "declaration",
+											"kind": 1024,
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "packages/fast-ui-redux/src/store.ts",
+													"line": 21,
+													"character": 4,
+													"url": "https://github.com/QubitPi/fast-ui/blob/2a89e6d/packages/fast-ui-redux/src/store.ts#L21"
+												}
+											],
+											"type": {
+												"type": "reference",
+												"target": {
+													"sourceFileName": "../packages/fast-ui-redux/src/appSlice.ts",
+													"qualifiedName": "AppState"
+												},
+												"name": "AppState",
+												"package": "fast-ui-redux"
+											},
+											"defaultValue": "appReducer"
+										}
+									],
+									"groups": [
+										{
+											"title": "Properties",
+											"children": [
+												102
+											]
+										}
+									]
+								}
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../node_modules/redux/dist/redux.d.ts",
+									"qualifiedName": "UnknownAction"
+								},
+								"name": "UnknownAction",
+								"package": "redux"
+							},
+							{
+								"type": "reference",
+								"target": {
+									"sourceFileName": "../node_modules/@reduxjs/toolkit/dist/index.d.ts",
+									"qualifiedName": "Tuple"
+								},
+								"typeArguments": [
+									{
+										"type": "tuple",
+										"elements": [
+											{
+												"type": "reference",
+												"target": {
+													"sourceFileName": "../node_modules/redux/dist/redux.d.ts",
+													"qualifiedName": "StoreEnhancer"
+												},
+												"typeArguments": [
+													{
+														"type": "reflection",
+														"declaration": {
+															"id": 103,
+															"name": "__type",
+															"variant": "declaration",
+															"kind": 65536,
+															"flags": {},
+															"children": [
+																{
+																	"id": 104,
+																	"name": "dispatch",
+																	"variant": "declaration",
+																	"kind": 1024,
+																	"flags": {
+																		"isExternal": true
+																	},
+																	"sources": [
+																		{
+																			"fileName": "node_modules/@reduxjs/toolkit/dist/index.d.ts",
+																			"line": 591,
+																			"character": 8
+																		}
+																	],
+																	"type": {
+																		"type": "reference",
+																		"target": {
+																			"sourceFileName": "../node_modules/redux-thunk/dist/redux-thunk.d.ts",
+																			"qualifiedName": "ThunkDispatch"
+																		},
+																		"typeArguments": [
+																			{
+																				"type": "reflection",
+																				"declaration": {
+																					"id": 105,
+																					"name": "__type",
+																					"variant": "declaration",
+																					"kind": 65536,
+																					"flags": {
+																						"isExternal": true
+																					},
+																					"children": [
+																						{
+																							"id": 106,
+																							"name": "app",
+																							"variant": "declaration",
+																							"kind": 1024,
+																							"flags": {
+																								"isExternal": true
+																							},
+																							"sources": [
+																								{
+																									"fileName": "packages/fast-ui-redux/src/store.ts",
+																									"line": 21,
+																									"character": 4,
+																									"url": "https://github.com/QubitPi/fast-ui/blob/2a89e6d/packages/fast-ui-redux/src/store.ts#L21"
+																								}
+																							],
+																							"type": {
+																								"type": "reference",
+																								"target": {
+																									"sourceFileName": "../packages/fast-ui-redux/src/appSlice.ts",
+																									"qualifiedName": "AppState"
+																								},
+																								"name": "AppState",
+																								"package": "fast-ui-redux"
+																							},
+																							"defaultValue": "appReducer"
+																						}
+																					],
+																					"groups": [
+																						{
+																							"title": "Properties",
+																							"children": [
+																								106
+																							]
+																						}
+																					]
+																				}
+																			},
+																			{
+																				"type": "intrinsic",
+																				"name": "undefined"
+																			},
+																			{
+																				"type": "reference",
+																				"target": {
+																					"sourceFileName": "../node_modules/redux/dist/redux.d.ts",
+																					"qualifiedName": "UnknownAction"
+																				},
+																				"name": "UnknownAction",
+																				"package": "redux"
+																			}
+																		],
+																		"name": "ThunkDispatch",
+																		"package": "redux-thunk"
+																	}
+																}
+															],
+															"groups": [
+																{
+																	"title": "Properties",
+																	"children": [
+																		104
+																	]
+																}
+															],
+															"sources": [
+																{
+																	"fileName": "node_modules/@reduxjs/toolkit/dist/index.d.ts",
+																	"line": 590,
+																	"character": 18
+																}
+															]
+														}
+													}
+												],
+												"name": "StoreEnhancer",
+												"package": "redux"
+											},
+											{
+												"type": "reference",
+												"target": {
+													"sourceFileName": "../node_modules/redux/dist/redux.d.ts",
+													"qualifiedName": "StoreEnhancer"
+												},
+												"name": "StoreEnhancer",
+												"package": "redux"
+											}
+										]
+									}
+								],
+								"name": "Tuple",
+								"package": "@reduxjs/toolkit"
+							}
+						],
+						"name": "EnhancedStore",
+						"package": "@reduxjs/toolkit"
+					},
+					"defaultValue": "..."
+				}
+			],
+			"groups": [
+				{
+					"title": "Type Aliases",
+					"children": [
+						108,
+						107
+					]
+				},
+				{
+					"title": "Variables",
+					"children": [
+						100
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "packages/fast-ui-redux/src/store.ts",
+					"line": 1,
+					"character": 0,
+					"url": "https://github.com/QubitPi/fast-ui/blob/2a89e6d/packages/fast-ui-redux/src/store.ts#L1"
+				}
+			]
+		}
+	],
+	"groups": [
+		{
+			"title": "Modules",
+			"children": [
+				4,
+				1,
+				5,
+				6,
+				8,
+				9,
+				66,
+				99
+			]
+		}
+	],
+	"packageName": "fast-ui",
+	"readme": [
+		{
+			"kind": "text",
+			"text": "# FastUI\n\n![Node Version Badge]\n[![GitHub Workflow Status]][GitHub Workflow URL]\n[![Apache License Badge]][Apache License, Version 2.0]\n\n**FastUI** is a TypeScript React+Webpack web app template that lets us spin up frontend project quickly through\n[GitHub templates]. One can think of it as the monorepo version of Facebooks's [Create React App] but with intense focus\nand improvements on software CI/CD, such as automated testing. At the end of the day, FastUI helps organization\nto improve the velocity and quality of their teams' work.\n\n> [!NOTE]\n>\n> Unlike Create React App's [eject mechanism](https://create-react-app.dev/docs/available-scripts#npm-run-eject), FastUI gives developer **total control of every aspect of frontend\n> development**; all configs are surfaced and directly tunable, such as Jest Babel configs, without \"ejecting\" or\n> dependence on external config library.\n\n## ✨ Features\n\n- Multi-language support [![i18n](https://img.shields.io/badge/i18next-26A69A?style=for-the-badge&logo=i18next&logoColor=white)](https://react.i18next.com/getting-started)\n- Start of the art project manager [![Yarn 4](https://img.shields.io/badge/Yarn%204-2C8EBB?style=for-the-badge&logo=yarn&logoColor=white)](https://yarnpkg.com/)\n- Fully automated CI/CD [![GH Action](https://img.shields.io/badge/GitHub%20Action-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/features/actions)\n\n  - Code style checks\n\n    - React & TypeScript [![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white)](https://eslint.org/) [![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=white)](https://prettier.io/)\n    - YAML & Markdown\n\n  - Fully automated tests coming out of the box\n\n    - Unit & End-to-End Tests [![Jest](https://img.shields.io/badge/Jest%20Unit%20Tests-C21325?style=for-the-badge&logo=jest&logoColor=white)](https://jest.qubitpi.org/) [![Cypress](https://img.shields.io/badge/Cypress%20E2E-69D3A7?style=for-the-badge&logo=cypress&logoColor=white)](https://cypress.qubitpi.org)\n    - Performance Tests [![Lighthouse](https://img.shields.io/badge/Lighthouse-F44B21?style=for-the-badge&logo=lighthouse&logoColor=white)](https://developer.chrome.com/docs/lighthouse/overview)\n\n      ![](https://github.com/QubitPi/fast-ui/blob/master/docs/docs/img/lighthouse-report-example.png?raw=true)\n\n    - UI Snapshot Tests [![Covered by Argos Visual Testing](https://argos-ci.com/badge-large.svg)](https://app.argos-ci.com/qubitpi/fast-ui/reference)\n\n      ![](https://github.com/QubitPi/fast-ui/blob/master/docs/docs/img/argos-example.png?raw=true)\n\n- Modern application monitoring [![sentry.io](https://img.shields.io/badge/sentry.io-362D59.svg?style=for-the-badge&logo=sentry&logoColor=white)](https://paion-data.sentry.io/issues/?project=4508702863589376)\n- Auto-generated documentations [![TypeDoc](https://img.shields.io/badge/TypeDoc-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://fastui.qubitpi.org/api/)\n- Modern state management template supporting arbitrarily complex React component wiring\n  [![Redux Badge](https://img.shields.io/badge/Redux-764ABC?logo=redux&logoColor=white&style=for-the-badge)](https://react-redux.qubitpi.org/)\n\n## License\n\nThe use and distribution terms for [FastUI]() are covered by the [Apache License, Version 2.0]\n\n[Apache License Badge]: https://img.shields.io/badge/Apache%202.0-F25910.svg?style=for-the-badge&logo=Apache&logoColor=white\n[Apache License, Version 2.0]: https://www.apache.org/licenses/LICENSE-2.0\n[Create React App]: https://create-react-app.dev/\n[GitHub templates]: https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-template-repository#about-template-repositories\n[GitHub Workflow Status]: https://img.shields.io/github/actions/workflow/status/QubitPi/fast-ui/ci-cd.yaml?branch=master&logo=github&style=for-the-badge\n[GitHub Workflow URL]: https://github.com/QubitPi/fast-ui/actions/workflows/ci-cd.yaml\n[Node Version Badge]: https://img.shields.io/badge/NODE-22-339933?logo=Node.js&logoColor=white&labelColor=66cc33&style=for-the-badge"
+		}
+	],
+	"symbolIdMap": {
+		"1": {
+			"sourceFileName": "../packages/fast-ui-app/src/App.tsx",
+			"qualifiedName": ""
+		},
+		"2": {
+			"sourceFileName": "../packages/fast-ui-app/src/App.tsx",
+			"qualifiedName": "default"
+		},
+		"3": {
+			"sourceFileName": "../packages/fast-ui-app/src/App.tsx",
+			"qualifiedName": "default"
+		},
+		"4": {
+			"sourceFileName": "../packages/fast-ui-app/src/index.tsx",
+			"qualifiedName": ""
+		},
+		"5": {
+			"sourceFileName": "../packages/fast-ui-i18n/index.ts",
+			"qualifiedName": ""
+		},
+		"6": {
+			"sourceFileName": "../packages/fast-ui-i18n/src/i18n.ts",
+			"qualifiedName": ""
+		},
+		"7": {
+			"sourceFileName": "../packages/fast-ui-i18n/src/i18n.ts",
+			"qualifiedName": "default"
+		},
+		"8": {
+			"sourceFileName": "../packages/fast-ui-redux/index.ts",
+			"qualifiedName": ""
+		},
+		"9": {
+			"sourceFileName": "../packages/fast-ui-redux/src/appSlice.ts",
+			"qualifiedName": ""
+		},
+		"10": {
+			"sourceFileName": "../packages/fast-ui-redux/src/appSlice.ts",
+			"qualifiedName": "appSlice"
+		},
+		"11": {
+			"sourceFileName": "../packages/fast-ui-redux/src/appSlice.ts",
+			"qualifiedName": "__object"
+		},
+		"12": {
+			"sourceFileName": "../packages/fast-ui-redux/src/appSlice.ts",
+			"qualifiedName": "__object.setMyState1"
+		},
+		"13": {
+			"sourceFileName": "../packages/fast-ui-redux/src/appSlice.ts",
+			"qualifiedName": "__function"
+		},
+		"14": {
+			"sourceFileName": "../packages/fast-ui-redux/src/appSlice.ts",
+			"qualifiedName": "__function"
+		},
+		"15": {
+			"sourceFileName": "../packages/fast-ui-redux/src/appSlice.ts",
+			"qualifiedName": "state"
+		},
+		"16": {
+			"sourceFileName": "../packages/fast-ui-redux/src/appSlice.ts",
+			"qualifiedName": "action"
+		},
+		"17": {
+			"sourceFileName": "../node_modules/@reduxjs/toolkit/dist/index.d.ts",
+			"qualifiedName": "__type"
+		},
+		"18": {
+			"sourceFileName": "../node_modules/@reduxjs/toolkit/dist/index.d.ts",
+			"qualifiedName": "__type.payload"
+		},
+		"19": {
+			"sourceFileName": "../node_modules/@reduxjs/toolkit/dist/index.d.ts",
+			"qualifiedName": "__type.type"
+		},
+		"20": {
+			"sourceFileName": "../packages/fast-ui-redux/src/appSlice.ts",
+			"qualifiedName": "__object.setMyState2"
+		},
+		"21": {
+			"sourceFileName": "../packages/fast-ui-redux/src/appSlice.ts",
+			"qualifiedName": "__function"
+		},
+		"22": {
+			"sourceFileName": "../packages/fast-ui-redux/src/appSlice.ts",
+			"qualifiedName": "__function"
+		},
+		"23": {
+			"sourceFileName": "../packages/fast-ui-redux/src/appSlice.ts",
+			"qualifiedName": "state"
+		},
+		"24": {
+			"sourceFileName": "../packages/fast-ui-redux/src/appSlice.ts",
+			"qualifiedName": "action"
+		},
+		"25": {
+			"sourceFileName": "../node_modules/@reduxjs/toolkit/dist/index.d.ts",
+			"qualifiedName": "__type"
+		},
+		"26": {
+			"sourceFileName": "../node_modules/@reduxjs/toolkit/dist/index.d.ts",
+			"qualifiedName": "__type.payload"
+		},
+		"27": {
+			"sourceFileName": "../node_modules/@reduxjs/toolkit/dist/index.d.ts",
+			"qualifiedName": "__type.type"
+		},
+		"28": {
+			"sourceFileName": "../packages/fast-ui-redux/src/appSlice.ts",
+			"qualifiedName": "setMyState1"
+		},
+		"29": {
+			"sourceFileName": "../node_modules/@reduxjs/toolkit/dist/index.d.ts",
+			"qualifiedName": "setMyState1"
+		},
+		"30": {
+			"sourceFileName": "../node_modules/@reduxjs/toolkit/dist/index.d.ts",
+			"qualifiedName": "payload"
+		},
+		"31": {
+			"sourceFileName": "../node_modules/@reduxjs/toolkit/dist/index.d.ts",
+			"qualifiedName": "__type"
+		},
+		"32": {
+			"sourceFileName": "../node_modules/@reduxjs/toolkit/dist/index.d.ts",
+			"qualifiedName": "__type.payload"
+		},
+		"33": {
+			"sourceFileName": "../node_modules/@reduxjs/toolkit/dist/index.d.ts",
+			"qualifiedName": "__type.type"
+		},
+		"34": {
+			"sourceFileName": "../packages/fast-ui-redux/src/appSlice.ts",
+			"qualifiedName": "setMyState1"
+		},
+		"35": {
+			"sourceFileName": "../node_modules/@reduxjs/toolkit/dist/index.d.ts",
+			"qualifiedName": "__type.type"
+		},
+		"36": {
+			"sourceFileName": "../node_modules/@reduxjs/toolkit/dist/index.d.ts",
+			"qualifiedName": "__type.match"
+		},
+		"37": {
+			"sourceFileName": "../node_modules/@reduxjs/toolkit/dist/index.d.ts",
+			"qualifiedName": "__type.match"
+		},
+		"38": {
+			"sourceFileName": "../node_modules/@reduxjs/toolkit/dist/index.d.ts",
+			"qualifiedName": "action"
+		},
+		"39": {
+			"sourceFileName": "../node_modules/@reduxjs/toolkit/dist/index.d.ts",
+			"qualifiedName": "__type"
+		},
+		"40": {
+			"sourceFileName": "../node_modules/@reduxjs/toolkit/dist/index.d.ts",
+			"qualifiedName": "__type.payload"
+		},
+		"41": {
+			"sourceFileName": "../node_modules/@reduxjs/toolkit/dist/index.d.ts",
+			"qualifiedName": "__type.type"
+		},
+		"42": {
+			"sourceFileName": "../packages/fast-ui-redux/src/appSlice.ts",
+			"qualifiedName": "setMyState2"
+		},
+		"43": {
+			"sourceFileName": "../node_modules/@reduxjs/toolkit/dist/index.d.ts",
+			"qualifiedName": "setMyState2"
+		},
+		"44": {
+			"sourceFileName": "../node_modules/@reduxjs/toolkit/dist/index.d.ts",
+			"qualifiedName": "payload"
+		},
+		"45": {
+			"sourceFileName": "../node_modules/@reduxjs/toolkit/dist/index.d.ts",
+			"qualifiedName": "__type"
+		},
+		"46": {
+			"sourceFileName": "../node_modules/@reduxjs/toolkit/dist/index.d.ts",
+			"qualifiedName": "__type.payload"
+		},
+		"47": {
+			"sourceFileName": "../node_modules/@reduxjs/toolkit/dist/index.d.ts",
+			"qualifiedName": "__type.type"
+		},
+		"48": {
+			"sourceFileName": "../packages/fast-ui-redux/src/appSlice.ts",
+			"qualifiedName": "setMyState2"
+		},
+		"49": {
+			"sourceFileName": "../node_modules/@reduxjs/toolkit/dist/index.d.ts",
+			"qualifiedName": "__type.type"
+		},
+		"50": {
+			"sourceFileName": "../node_modules/@reduxjs/toolkit/dist/index.d.ts",
+			"qualifiedName": "__type.match"
+		},
+		"51": {
+			"sourceFileName": "../node_modules/@reduxjs/toolkit/dist/index.d.ts",
+			"qualifiedName": "__type.match"
+		},
+		"52": {
+			"sourceFileName": "../node_modules/@reduxjs/toolkit/dist/index.d.ts",
+			"qualifiedName": "action"
+		},
+		"53": {
+			"sourceFileName": "../node_modules/@reduxjs/toolkit/dist/index.d.ts",
+			"qualifiedName": "__type"
+		},
+		"54": {
+			"sourceFileName": "../node_modules/@reduxjs/toolkit/dist/index.d.ts",
+			"qualifiedName": "__type.payload"
+		},
+		"55": {
+			"sourceFileName": "../node_modules/@reduxjs/toolkit/dist/index.d.ts",
+			"qualifiedName": "__type.type"
+		},
+		"56": {
+			"sourceFileName": "../packages/fast-ui-redux/src/appSlice.ts",
+			"qualifiedName": "selectMyState1"
+		},
+		"57": {
+			"sourceFileName": "../packages/fast-ui-redux/src/appSlice.ts",
+			"qualifiedName": "selectMyState1"
+		},
+		"58": {
+			"sourceFileName": "../packages/fast-ui-redux/src/appSlice.ts",
+			"qualifiedName": "state"
+		},
+		"60": {
+			"sourceFileName": "../packages/fast-ui-redux/src/store.ts",
+			"qualifiedName": "app"
+		},
+		"61": {
+			"sourceFileName": "../packages/fast-ui-redux/src/appSlice.ts",
+			"qualifiedName": "selectMyState2"
+		},
+		"62": {
+			"sourceFileName": "../packages/fast-ui-redux/src/appSlice.ts",
+			"qualifiedName": "selectMyState2"
+		},
+		"63": {
+			"sourceFileName": "../packages/fast-ui-redux/src/appSlice.ts",
+			"qualifiedName": "state"
+		},
+		"65": {
+			"sourceFileName": "../packages/fast-ui-redux/src/store.ts",
+			"qualifiedName": "app"
+		},
+		"66": {
+			"sourceFileName": "../packages/fast-ui-redux/src/hooks.ts",
+			"qualifiedName": ""
+		},
+		"67": {
+			"sourceFileName": "../packages/fast-ui-redux/src/hooks.ts",
+			"qualifiedName": "useAppDispatch"
+		},
+		"68": {
+			"sourceFileName": "../node_modules/react-redux/dist/react-redux.d.ts",
+			"qualifiedName": "useAppDispatch"
+		},
+		"69": {
+			"sourceFileName": "../node_modules/react-redux/dist/react-redux.d.ts",
+			"qualifiedName": "AppDispatch"
+		},
+		"71": {
+			"sourceFileName": "../packages/fast-ui-redux/src/store.ts",
+			"qualifiedName": "app"
+		},
+		"73": {
+			"sourceFileName": "../packages/fast-ui-redux/src/store.ts",
+			"qualifiedName": "app"
+		},
+		"74": {
+			"sourceFileName": "../packages/fast-ui-redux/src/hooks.ts",
+			"qualifiedName": "useAppDispatch"
+		},
+		"75": {
+			"sourceFileName": "../node_modules/react-redux/dist/react-redux.d.ts",
+			"qualifiedName": "UseDispatch.withTypes"
+		},
+		"76": {
+			"sourceFileName": "../node_modules/react-redux/dist/react-redux.d.ts",
+			"qualifiedName": "UseDispatch.withTypes"
+		},
+		"77": {
+			"sourceFileName": "../node_modules/react-redux/dist/react-redux.d.ts",
+			"qualifiedName": "OverrideDispatchType"
+		},
+		"79": {
+			"sourceFileName": "../packages/fast-ui-redux/src/store.ts",
+			"qualifiedName": "app"
+		},
+		"80": {
+			"sourceFileName": "../packages/fast-ui-redux/src/hooks.ts",
+			"qualifiedName": "useAppSelector"
+		},
+		"81": {
+			"sourceFileName": "../node_modules/react-redux/dist/react-redux.d.ts",
+			"qualifiedName": "useAppSelector"
+		},
+		"82": {
+			"sourceFileName": "../node_modules/react-redux/dist/react-redux.d.ts",
+			"qualifiedName": "TState"
+		},
+		"84": {
+			"sourceFileName": "../packages/fast-ui-redux/src/store.ts",
+			"qualifiedName": "app"
+		},
+		"86": {
+			"sourceFileName": "../packages/fast-ui-redux/src/store.ts",
+			"qualifiedName": "app"
+		},
+		"87": {
+			"sourceFileName": "../node_modules/react-redux/dist/react-redux.d.ts",
+			"qualifiedName": "Selected"
+		},
+		"88": {
+			"sourceFileName": "../node_modules/react-redux/dist/react-redux.d.ts",
+			"qualifiedName": "selector"
+		},
+		"89": {
+			"sourceFileName": "../node_modules/react-redux/dist/react-redux.d.ts",
+			"qualifiedName": "__type"
+		},
+		"90": {
+			"sourceFileName": "../node_modules/react-redux/dist/react-redux.d.ts",
+			"qualifiedName": "__type"
+		},
+		"91": {
+			"sourceFileName": "../node_modules/react-redux/dist/react-redux.d.ts",
+			"qualifiedName": "state"
+		},
+		"92": {
+			"sourceFileName": "../node_modules/react-redux/dist/react-redux.d.ts",
+			"qualifiedName": "equalityFnOrOptions"
+		},
+		"93": {
+			"sourceFileName": "../packages/fast-ui-redux/src/hooks.ts",
+			"qualifiedName": "useAppSelector"
+		},
+		"94": {
+			"sourceFileName": "../node_modules/react-redux/dist/react-redux.d.ts",
+			"qualifiedName": "UseSelector.withTypes"
+		},
+		"95": {
+			"sourceFileName": "../node_modules/react-redux/dist/react-redux.d.ts",
+			"qualifiedName": "UseSelector.withTypes"
+		},
+		"96": {
+			"sourceFileName": "../node_modules/react-redux/dist/react-redux.d.ts",
+			"qualifiedName": "OverrideStateType"
+		},
+		"98": {
+			"sourceFileName": "../packages/fast-ui-redux/src/store.ts",
+			"qualifiedName": "app"
+		},
+		"99": {
+			"sourceFileName": "../packages/fast-ui-redux/src/store.ts",
+			"qualifiedName": ""
+		},
+		"100": {
+			"sourceFileName": "../packages/fast-ui-redux/src/store.ts",
+			"qualifiedName": "store"
+		},
+		"102": {
+			"sourceFileName": "../packages/fast-ui-redux/src/store.ts",
+			"qualifiedName": "app"
+		},
+		"103": {
+			"sourceFileName": "../node_modules/@reduxjs/toolkit/dist/index.d.ts",
+			"qualifiedName": "__type"
+		},
+		"104": {
+			"sourceFileName": "../node_modules/@reduxjs/toolkit/dist/index.d.ts",
+			"qualifiedName": "__type.dispatch"
+		},
+		"106": {
+			"sourceFileName": "../packages/fast-ui-redux/src/store.ts",
+			"qualifiedName": "app"
+		},
+		"107": {
+			"sourceFileName": "../packages/fast-ui-redux/src/store.ts",
+			"qualifiedName": "RootState"
+		},
+		"108": {
+			"sourceFileName": "../packages/fast-ui-redux/src/store.ts",
+			"qualifiedName": "AppDispatch"
+		},
+		"109": {
+			"sourceFileName": "../packages/fast-ui-i18n/index.ts",
+			"qualifiedName": "i18n"
+		},
+		"110": {
+			"sourceFileName": "../packages/fast-ui-redux/index.ts",
+			"qualifiedName": "setMyState1"
+		},
+		"111": {
+			"sourceFileName": "../packages/fast-ui-redux/index.ts",
+			"qualifiedName": "setMyState2"
+		},
+		"112": {
+			"sourceFileName": "../packages/fast-ui-redux/index.ts",
+			"qualifiedName": "selectMyState1"
+		},
+		"113": {
+			"sourceFileName": "../packages/fast-ui-redux/index.ts",
+			"qualifiedName": "selectMyState2"
+		},
+		"114": {
+			"sourceFileName": "../packages/fast-ui-redux/index.ts",
+			"qualifiedName": "useAppSelector"
+		},
+		"115": {
+			"sourceFileName": "../packages/fast-ui-redux/index.ts",
+			"qualifiedName": "useAppDispatch"
+		},
+		"116": {
+			"sourceFileName": "../packages/fast-ui-redux/index.ts",
+			"qualifiedName": "store"
+		},
+		"117": {
+			"sourceFileName": "../node_modules/@reduxjs/toolkit/dist/index.d.ts",
+			"qualifiedName": "Slice.reducer"
+		},
+		"118": {
+			"sourceFileName": "../node_modules/redux/dist/redux.d.ts",
+			"qualifiedName": "Slice.reducer"
+		},
+		"119": {
+			"sourceFileName": "../node_modules/redux/dist/redux.d.ts",
+			"qualifiedName": "state"
+		},
+		"120": {
+			"sourceFileName": "../node_modules/redux/dist/redux.d.ts",
+			"qualifiedName": "action"
+		}
+	}
+}

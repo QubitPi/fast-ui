@@ -20,6 +20,9 @@ name: CI/CD
     branches:
       - master
 
+permissions:
+  contents: read
+
 concurrency:
   group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
   cancel-in-progress: true
@@ -28,37 +31,27 @@ env:
   NODE_VERSION: 22
 
 jobs:
-  yaml-lint:
-    name: YAML Style Check
+  pre-commit:
+    name: Pre-commit Checks
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actionshub/yamllint@main
-
-  markdown-lint:
-    name: Markdown Style Check
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actionshub/markdownlint@main
-
-  linkChecker:
-    name: Link Check
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - name: Link Checker
-        uses: lycheeverse/lychee-action@v1.9.0
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
         with:
-          fail: true
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+      - uses: pre-commit/action@2c7b3805fd2a0fd8c1884dcaebf91fc102a13ecd #v3.0.1
 
   code-style:
     name: Code Style Check
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
       - name: Set node version to ${{ env.NODE_VERSION }}
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
         with:
           node-version: ${{ env.NODE_VERSION }}
       - name: Set up yarn
@@ -74,11 +67,13 @@ jobs:
 
   lighthouse:
     if: github.ref != 'refs/heads/master'
-    needs: [yaml-lint, markdown-lint, linkChecker, code-style]
+    needs: [pre-commit, code-style]
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: true
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
         with:
           node-version: ${{ env.NODE_VERSION }}
       - name: Set up yarn
@@ -88,7 +83,7 @@ jobs:
       - run: cp .env.test .env && yarn
       - name: Audit URLs using Lighthouse
         id: lighthouse_audit
-        uses: treosh/lighthouse-ci-action@v12
+        uses: treosh/lighthouse-ci-action@fcd65974f7c4c2bf0ee9d09b84d2489183c29726 # 12.6.1
         with:
           urls: |
             http://localhost:3000
@@ -120,12 +115,14 @@ jobs:
 
   unit-tests:
     name: Unit Tests
-    needs: [yaml-lint, markdown-lint, linkChecker, code-style]
+    needs: [pre-commit, code-style]
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
       - name: Set node version to ${{ env.NODE_VERSION }}
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
         with:
           node-version: ${{ env.NODE_VERSION }}
       - name: Set up yarn
@@ -146,7 +143,7 @@ jobs:
     steps:
       - name: List Files
         id: list-e2e-specs
-        uses: mirko-felice/list-files-action@v3.0.5
+        uses: mirko-felice/list-files-action@790c9737b7acae4a47b6afc896fc603780f16b5d # v3.0.5
         with:
           repo: ${{ github.repository }}
           ref: ${{ github.ref }}
@@ -164,9 +161,11 @@ jobs:
         mode: ["dev", "prod"]
         node_version: [18, 20, 22]
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
       - name: Set node version to ${{ matrix.node_version }}
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
         with:
           node-version: ${{ matrix.node_version }}
       - name: Set up yarn
@@ -198,10 +197,10 @@ jobs:
         if: failure()
         run: |
           id=$(echo "${{ matrix.test_spec }}" | sed s:/:_:g)
-          echo "::set-output name=id::$id"
+          echo "id=$id" >> "$GITHUB_OUTPUT"
       - name: Upload test videos and screenshots on test failure
         if: failure()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
         with:
           name: ${{ matrix.mode }}-${{steps.extract-spec-filename.outputs.id}}-${{ env.NODE_VERSION }}
           path: |
@@ -216,8 +215,10 @@ jobs:
       run:
         working-directory: docs
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
         with:
           node-version: ${{ env.NODE_VERSION }}
       - name: Set up yarn
@@ -232,7 +233,7 @@ jobs:
         run: yarn build
       - name: Deploy to GitHub Pages
         if: github.ref == 'refs/heads/master'
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@4f9cc6602d3f66b9c108549d475ec49e8ef4d45e # v4.0.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs/build

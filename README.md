@@ -32,9 +32,6 @@ to improve the velocity and quality of their teams' work.
     - Performance Tests [![Lighthouse](https://img.shields.io/badge/Lighthouse-F44B21?style=for-the-badge&logo=lighthouse&logoColor=white)](https://developer.chrome.com/docs/lighthouse/overview)
 
       ![](https://github.com/QubitPi/fast-ui/blob/master/docs/docs/img/lighthouse-report-example.png?raw=true)
-
-    - UI Snapshot Tests [![Covered by Argos Visual Testing](https://argos-ci.com/badge-large.svg)](https://app.argos-ci.com/qubitpi/fast-ui/reference)
-
       ![](https://github.com/QubitPi/fast-ui/blob/master/docs/docs/img/argos-example.png?raw=true)
 
 - Modern application monitoring [![sentry.io](https://img.shields.io/badge/sentry.io-362D59.svg?style=for-the-badge&logo=sentry&logoColor=white)](https://paion-data.sentry.io/issues/?project=4508702863589376)
